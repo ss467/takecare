@@ -1,0 +1,1 @@
+//jshint ESversion:6

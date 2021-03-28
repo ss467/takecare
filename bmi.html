@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="bmi.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>BMI</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <a class="navbar-brand" href="home.html">TAKECARE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div clas  s="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.covidtracker.com/">COVID19 Tracker</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About</a>
+            </li>
+           
+          </ul>
+          
+        </div>
+      </nav>
+      <div class="Intro">
+      <h1 class="bh0">Body Measure Index</h1>
+      <p class="bp1">Body Mass Index (BMI) is a measurement of a person’s weight with respect to his or her height. It is more of an indicator than a direct measurement of a person’s total body fat.
+
+        BMI, more often than not, correlates with total body fat. This means that as the BMI score increases, so does a person’s total body fat.</p>
+    </div>
+    <h1 class="bh1">BMI CALCULATOR</h1>
+    <div class="data">
+    <form action="/bmi" method="post">
+       <input class="weight" type="text" name="weight" placeholder="Your Weight"><br>
+       <input class="height" type="text" name="height" placeholder="Your Height"><br>
+       <button class="btn" type="submit">GO</button>
+    </form>
+    </div>
+
+<h1 class="bh2">Health Chart</h1>
+
+<img class="bmichart" src="bmi.png" alt="CHART">
+</body>
+</html>
